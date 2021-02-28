@@ -1,3 +1,13 @@
+
+```
+docker build -t flask-sample:latest .
+
+docker run -d -p 5000:5000 flask-sample
+
+```
+
+
+==================
 ```
 pip install flask flask-sqlalchemy psycopg2 flask-migrate flask-script
 ```
